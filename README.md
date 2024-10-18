@@ -2,9 +2,16 @@
 
 <p>
   
-  Olá, seja bem-vindo ao meu repositório dedicado ao projeto da VEXPENSES, neste repositório vou detalhar todo o processo realizado para completar a tarefa proposta. Começarei apresentando o desafio e em seguida explicarei com detalhes sobre cada etapa e cada alteração feita, foram muitas horas de dedicação para atingir esse resultado, espero que goste! =)
+  Olá, seja bem-vindo ao meu repositório dedicado ao projeto da VEXPENSES, neste repositório vou detalhar todo o processo realizado para completar a tarefa proposta. 
+
   
 </p>
 
+<p>
 
+  Começarei apresentando o desafio e em seguida explicarei com detalhes sobre cada etapa e cada alteração feita, espero que goste! =)
+  
+</p>
+
+#
 
