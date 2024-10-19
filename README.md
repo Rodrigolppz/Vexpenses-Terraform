@@ -36,16 +36,19 @@ Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função,
 ├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)             
 ├── [outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
 
-Isso facilita a leitura, o entendimento e a organização.
+Isso facilita a leitura, o entendimento, a organização e o workflow.
 
 ### 3º passo
 Revisar as configurações separadas e fazer ajustes baseados no que o projeto pede. 
 
-Comecei substituindo critérios das variáveis.
+Comecei substituindo os critérios das variáveis.
 
 [Explicação detalhada das variáveis](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Vari%C3%A1veis)
 
+### 4º passo
+Fazer a configuração da network, essa é a parte que eu considero mais importante, pois é aqui que vai ser feito todo o set up da rede e ajustes de segurança. 
 
+[Explicação detalhada passo a passo sobre as configurações da network](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)
 
 
 
