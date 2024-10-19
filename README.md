@@ -23,5 +23,16 @@
 
 #
 
-### Parte 1
-Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/main.tf) disponibilizado, entender e identificar possiveis melhorias. 
+### 1º passo
+Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/main.tf) disponibilizado, entendê-lo e identificar possiveis melhorias.
+### 2º passo
+Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função, exemplo: 
+
+├── provider.tf              
+├── variables.tf             
+├── network.tf               
+├── security_groups.tf       
+├── instances.tf             
+├── outputs.tf
+
+Isso facilita a leitura, o entendimento e a organização.
