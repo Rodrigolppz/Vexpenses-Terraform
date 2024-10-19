@@ -1,7 +1,7 @@
 variable "projeto" {
   description = "Nome do projeto"
   type        = string
-  default     = "VEXPENSES" # Mantive o mesmo nome
+  default     = "VExpenses" # Mantive o mesmo nome
 }
 
 variable "candidato" {
