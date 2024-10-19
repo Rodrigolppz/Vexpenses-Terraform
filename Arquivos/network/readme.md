@@ -54,6 +54,10 @@ Preciso fazer uma breve explicação sobre como funciona a network na AWS, para 
 
 Ótimo, agora que entendemos os conceitos, podemos refinar o código e aplicar as melhores práticas de segurança a fim de tornar o trabalho mais profissional.
 
+[Explicação detalhada de todas as modificações no código](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/explica%C3%A7%C3%B5es-c%C3%B3digo.md)
+
+#
+
 
 
 
