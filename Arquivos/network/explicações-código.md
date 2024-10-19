@@ -21,7 +21,16 @@
 #
 
 ### Terceira modificação
+<p>
+  
 Criar um Elastic IP associado ao NAT Gateway. Esse Elastic IP garantirá que o NAT Gateway tenha um IP público fixo, permitindo assim que as instâncias na subnet privada tenham acesso à Internet de forma segura, enquanto permanecem isoladas.
+  
+</p>
+
+#
+
+Com essas 3 modificações o nosso código já está Agradável para darmos continuidade nos outros arquivos do projeto!
+
 
 
  
