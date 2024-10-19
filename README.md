@@ -120,12 +120,52 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
   Após isso é necessário pegar o Public IP da sua instância EC2 no console da AWS e conectar utilizando o comando -> ssh -i my-key.pem ec2-user@My.Public.Ip
 
   <img src=https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/SSH_Connection.png>
-
-
 </p>
 
+#
 
+### Verificar o NGINX 
+<p>
+  Após acessar o EC2 remotamente, é importante garantirmos que  NGINX está funcionando como deveria, para isso basta digitar os comandos:
 
+  sudo cat /var/log/cloud-init-output.log
+
+  Isso garantirá que o Nginx foi instalado corretamente.
+
+  Depois:
+
+  sudo systemctl status nginx
+
+  Esse comando verifica se o nginx está de fato ativo.
+
+  <img src=https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Nginx.png>
+</p>
+
+#
+
+<h1 align=center>Conclusão</h1>
+
+### Recapitulando
+
+<b>Vamos recapitular tudo o que foi feito desde o início...</b>
+
+Primeiro: Foi enviado um arquivo denominado main.tf, este arquivo definia a criação de uma infraestrutura básica na AWS, incluindo VPC, Subnet, Grupo de Segurança, Key Pair e uma instância EC2.
+
+O objetivo era estudar e analisar este arquivo, a fim de entender o que estava sendo feito e implementar melhores práticas de segurança de acordo com meu conhecimento e boas práticas.
+
+Após analisar o conteúdo e quebra-lo em arquivos diferentes para cada código, o próximo passo foi analisar os blocos de códigos e realizar melhorias na segurança.
+
+Depois de implementar as melhores práticas de segurança em cada arquivo, era a hora de iniciar a instância EC2 utilizando -> terraform init -> terraform apply.
+
+Tendo iniciado a instância, bastava conectar por SSH para garantir de que as configurações estavam funcionando e que minha máquina tinha acesso ao EC2.
+
+Por fim, uma vez que conectado dentro do EC2, era só verificar se o nginx teria instalado e iniciado automaticamente como foi programado no nosso user_data.
+
+Agora temos uma infraestrutura completa rodando na AWS.
+
+Foi um projeto muito interessante de fazer, aprendi muita coisa ao longo do percurso, a partir de agora me sinto bastante confiante para aprender ainda mais sobre IaC e o mundo DevOps, obrigado se voce viu até aqui.
+
+Sinta-se a vontade para dar uma olhada nos meus outros repositórios e entrar em contato caso queira! =)
 
 
 
