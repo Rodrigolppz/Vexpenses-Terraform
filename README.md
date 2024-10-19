@@ -109,7 +109,9 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
 
 <H1 align=center>Conclusão</H1>
 
-<b>O projeto se encerra por aqui, estarei separando </b>
+<b>O projeto se encerra por aqui, todas as configurações foram validadas e agora temos uma infraestutura completa rodando na nuvem com todas as especificações do projeto</b>
+
+[Resultado final](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Resultado-Final)
 
 
 
