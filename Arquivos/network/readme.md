@@ -43,6 +43,17 @@ Preciso fazer uma breve explicação sobre como funciona a network na AWS, para 
 #
 
 ### Network Acess Control List e Security Group
+<p>
+  Resumidamente, Network Access Control List (NACL) é como um firewall virtual que atua no nível da subnet. Ele controla o tráfego que entra e sai das subnets e oferece uma camada adicional de segurança em torno delas.
+
+  Security Group: É como um firewall virtual que protege instâncias individuais, como a EC2. Ele controla o tráfego de entrada e saída diretamente da instância.
+  
+</p>
+
+#
+
+Ótimo, agora que entendemos os conceitos, podemos refinar o código e aplicar as melhores práticas de segurança a fim de tornar o trabalho mais profissional.
+
 
 
 
