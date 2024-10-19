@@ -2,9 +2,16 @@
 
 ### Estrutura do código - primeiro bloco
 <p>
-    O primeiro bloco de código em Terraform é utilizado para procurar e referenciar uma imagem de máquina da Amazon (AMI) que corresponde aos critérios especificados. Vamos analisar cada parte:
-  
-  <b>data "aws_ami" "debian12"</b>
+    O primeiro bloco de código procura a imagem mais recente do Debian 12 que usa virtualização HVM e é de propriedade do proprietário específico. Depois de encontrar essa AMI, você pode referenciá-la na configuração da instância EC2 para que sua instância seja criada com essa imagem. Isso é útil para garantir que você esteja sempre utilizando a versão mais recente da imagem do sistema operacional, com as últimas atualizações e melhorias de segurança.
 
-  Aqui está sendo criado um data block que irá buscar informações sobre uma AMI específica. O nome da referência é debian12.
+  [Código original](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/instances/old-instance.tf)
+</p>
+
+#
+
+### Primeira modificação
+
+<p>
+    No código original o subnet_id estava associado à main_subnet, porém, como criamos duas subnets separadas, precisei associar o subnet_id à subnet pública que havia sido criada anteriormente.
+    
 </p>
