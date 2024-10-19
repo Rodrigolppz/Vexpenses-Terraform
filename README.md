@@ -29,12 +29,12 @@ Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/
 ### 2º passo
 Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função, exemplo: 
 
-├── provider.tf              
-├── variables.tf             
-├── network.tf               
-├── security_groups.tf       
-├── instances.tf             
-├── outputs.tf
+├── [Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)              
+├── [variables.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Variables)             
+├── [network.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)               
+├── [security_groups.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)       
+├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)             
+├── [outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
 
 Isso facilita a leitura, o entendimento e a organização.
 
