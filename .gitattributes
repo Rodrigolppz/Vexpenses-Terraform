@@ -1,0 +1,1 @@
+terraform[[:space:]]project/.terraform/providers/registry.terraform.io/hashicorp/aws/5.72.1/linux_amd64/terraform-provider-aws_v5.72.1_x5 filter=lfs diff=lfs merge=lfs -text
