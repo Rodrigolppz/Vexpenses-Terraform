@@ -26,6 +26,8 @@
 ### 1º passo
 Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/main.tf) disponibilizado, entendê-lo e identificar possiveis melhorias.
 
+#
+
 ### 2º passo
 Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função, exemplo: 
 
@@ -33,10 +35,13 @@ Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função,
 ├── [variables.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Variables)             
 ├── [network.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)               
 ├── [security_groups.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)       
-├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)             
+├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)   
 ├── [outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
 
+
 Isso facilita a leitura, o entendimento, a organização e o workflow.
+
+#
 
 ### 3º passo
 Revisar as configurações separadas e fazer ajustes baseados no que o projeto pede. 
@@ -45,10 +50,14 @@ Comecei substituindo os critérios das variáveis.
 
 [Explicação detalhada das variáveis](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Vari%C3%A1veis)
 
+#
+
 ### 4º passo
 Fazer a configuração da network, essa é a parte que eu considero mais importante, pois é aqui que vai ser feito todo o set up da rede e ajustes de segurança. 
 
 [Explicação detalhada passo a passo sobre as configurações da network](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)
+
+#
 
 ### 5º passo
 
@@ -56,10 +65,28 @@ Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao
 
 [Explicação Security groups](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)
 
+#
+
 ### 6º passo
 Analisar o código referente à instância, realizar as alterações necessárias e criar o script que instala e inicia o nginx automaticamente ao iniciar o EC2.
 
 [Explicação Instance](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)
+
+#
+
+### Extra
+
+Os códigos referentes às keypairs, outputs e providers já vieram configurados corretamente, portanto não há necessidade de nenhuma alteração, para mais detalhes acerca desses segue abaixo:
+
+[keypairs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/keypairs)
+
+[outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
+
+[Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)
+
+#
+
+
 
 
 
