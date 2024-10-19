@@ -1,1 +1,0 @@
-Jajá começamos
