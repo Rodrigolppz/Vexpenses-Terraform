@@ -21,5 +21,7 @@
 #
 
 ### Terceira modificação
-Criar um elastic ip associado ao NAT gateway, esse elastic ip fará com que o NAT gateway tenha um ip público fixo, permitindo assim com que a subnet privada tenha acesso à interent de forma segura e continue isolada
+Criar um Elastic IP associado ao NAT Gateway. Esse Elastic IP garantirá que o NAT Gateway tenha um IP público fixo, permitindo assim que as instâncias na subnet privada tenham acesso à Internet de forma segura, enquanto permanecem isoladas.
+
+
  
