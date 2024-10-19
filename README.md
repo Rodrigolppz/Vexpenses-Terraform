@@ -50,6 +50,12 @@ Fazer a configuração da network, essa é a parte que eu considero mais importa
 
 [Explicação detalhada passo a passo sobre as configurações da network](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)
 
+### 5º passo
+
+Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao security_groups
+
+[Explicação Security groups](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)
+
 
 
 
