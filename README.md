@@ -25,6 +25,7 @@
 
 ### 1º passo
 Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/main.tf) disponibilizado, entendê-lo e identificar possiveis melhorias.
+
 ### 2º passo
 Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função, exemplo: 
 
@@ -36,3 +37,12 @@ Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função,
 ├── outputs.tf
 
 Isso facilita a leitura, o entendimento e a organização.
+
+### 3º passo
+Iniciar a instância EC2, optei por iniciar a instância EC2 durante o desenvolvimento do projeto a fim de acompanhar as mudanças sendo feitas e garantir que esteja tudo correndo conforme o esperado.
+Segua abaixo o processo de inicialização da Instância EC2:
+
+
+
+
+
