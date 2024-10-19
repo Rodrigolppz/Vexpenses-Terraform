@@ -1,1 +1,0 @@
-### Alterações feitas nas variáveis
