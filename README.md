@@ -23,6 +23,9 @@
 
 #
 
+<h1 align=center >Organizar e modificar o arquivo main.tf</h1>
+
+
 ### 1º passo
 Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/main.tf) disponibilizado, entendê-lo e identificar possiveis melhorias.
 
@@ -84,7 +87,25 @@ Os códigos referentes às keypairs, outputs e providers já vieram configurados
 
 [Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)
 
+Com isso concluimos a etapa de configuração do arquivo main.tf, seguindo todo esse passo a passo o projeto estará pronto para ser inicializado na nuvem.
+
 #
+
+<h1 align=center>Inicializar o EC2</h1>
+
+### Tutorial
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
