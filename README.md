@@ -57,7 +57,7 @@ Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao
 [Explicação Security groups](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)
 
 ### 6º passo
-Analisar o código referente à instância e realizar as alterações necessárias.
+Analisar o código referente à instância, realizar as alterações necessárias e criar o script que instala e inicia o nginx automaticamente ao iniciar o EC2.
 
 [Explicação Instance](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)
 
