@@ -119,6 +119,8 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
 
   Após isso é necessário pegar o Public IP da sua instância EC2 no console da AWS e conectar utilizando o comando -> ssh -i my-key.pem ec2-user@My.Public.Ip
 
+  <img src=https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/SSH_Connection.png>
+
 
 </p>
 
