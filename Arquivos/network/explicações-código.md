@@ -7,3 +7,19 @@
   [Código original](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/old-network.tf)
   
 </p>
+
+#
+
+### Segunda Modificação 
+<p>
+  Com as duas subnets criadas, precisamos configurar uma route table para a subnet pública e o NAT gateway para a subnet privada, a fim de que a subnet pública tenha acesso total à internet, e a subnet privada tenha acesso à internet de forma segura, sem que a internet tenha acesso à subnet privada. 
+  
+[Código original](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/old-network.tf)
+  
+</p>
+
+#
+
+### Terceira modificação
+Criar um elastic ip associado ao NAT gateway, esse elastic ip fará com que o NAT gateway tenha um ip público fixo, permitindo assim com que a subnet privada tenha acesso à interent de forma segura e continue isolada
+ 
