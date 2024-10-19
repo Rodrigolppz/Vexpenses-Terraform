@@ -24,3 +24,4 @@
 #
 
 ### Parte 1
+Analisar o main.tf disponibilizado
