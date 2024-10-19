@@ -45,7 +45,7 @@ Comecei substituindo critérios das variáveis.
 
 [Explicação detalhada das variáveis](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Vari%C3%A1veis)
 
-[Tutorial de inicialização do EC2](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Start-EC2%20Instance-Tutorial)
+
 
 
 
