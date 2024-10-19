@@ -52,9 +52,14 @@ Fazer a configuração da network, essa é a parte que eu considero mais importa
 
 ### 5º passo
 
-Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao security_groups
+Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao security_groups.
 
 [Explicação Security groups](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)
+
+### 6º passo
+Analisar o código referente à instância e realizar as alterações necessárias.
+
+[Explicação Instance](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)
 
 
 
