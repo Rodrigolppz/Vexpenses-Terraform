@@ -107,11 +107,23 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
 
 #
 
-<H1 align=center>Conclusão</H1>
+<H1 align=center>Passos finais</H1>
 
-<b>O projeto se encerra por aqui, todas as configurações foram validadas e agora temos uma infraestutura completa rodando na nuvem com todas as especificações do projeto</b>
+<b>Agora que já está tudo rodando como deveria, basta realizar os testes para saber se todas as especificações foram atentidas, para isso vamos seguir um passo a passo simples</b>
 
-[Resultado final](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Resultado-Final)
+### Conectar por SSH
+<p>
+  Aqui nós precisamos conectar na nossa instância EC2 por SSH para garantir de que as configurações do security_group estão funcionando corretamente, para isso basta:
+
+  ir até o local aonde está localizado o arquivo .pem, que é o arquivo que contém a nossa chave privada de acesso, no meu caso é -> cd /root/terraform\ projet/
+
+  Após isso é necessário pegar o Public IP da sua instância EC2 no console da AWS e conectar utilizando o comando -> ssh -i my-key.pem ec2-user@My.Public.Ip
+
+
+</p>
+
+
+
 
 
 
