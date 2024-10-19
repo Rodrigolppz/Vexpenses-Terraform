@@ -13,8 +13,10 @@
 ### Modificação para aumentar a segurança
 
 <p>
-O código original permite uma conexão SSH de todas as máquinas, isso é especificado pelo ip 0.0.0.0/0 que representa a totalidade de máquinas que podem conectar na instância remotamente.
+O código original permite uma conexão SSH de todas as máquinas, isso é especificado pelo ip ["0.0.0.0/0"] que representa a totalidade de máquinas que podem conectar na instância remotamente.
 
 A fim de aumentar a segurança da instância, configurei o SSH para permitir conexão remota apenas do ip da minha máquina.
+
+Para isso eu precisei alterar as regras de entrada do código, substituindo o <b>cidr_blocks</b> de ["0.0.0.0/0"] pelo endereço IP da minha máquina seguido de /32, que representa um único endereço IP.
   
 </p>
