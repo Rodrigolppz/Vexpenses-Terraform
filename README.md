@@ -40,7 +40,11 @@ Isso facilita a leitura, o entendimento e a organização.
 
 ### 3º passo
 Iniciar a instância EC2, optei por iniciar a instância EC2 durante o desenvolvimento do projeto a fim de acompanhar as mudanças sendo feitas e garantir que esteja tudo correndo conforme o esperado.
-Segua abaixo o processo de inicialização da Instância EC2:
+
+Segue abaixo o processo de inicialização da Instância EC2:
+
+[Tutorial de inicialização do EC2](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Start-EC2%20Instance-Tutorial)
+
 
 
 
