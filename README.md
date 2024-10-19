@@ -95,11 +95,21 @@ Com isso concluimos a etapa de configuração do arquivo main.tf, seguindo todo 
 
 ### Tutorial
 
+Após fazer toda a configuração, basta se dirigir até o terminal (no meu caso é o Ubuntu), digitar aws config e colar as respectivas chaves, para isso precisa criar as chaves de acesso no console da AWS e instalar o aws-cli. (Vou dispensar detalhes nessa explicação)
 
+Feito isso, basta digitar os seguintes comandos no terminal:
 
+Terraform init
 
+Terraform apply
 
+Estando tudo configurado corretamente, toda a infraestrutura será criada no console da AWS.
 
+#
+
+<H1 align=center>Conclusão</H1>
+
+<b>O projeto se encerra por aqui, estarei separando </b>
 
 
 
