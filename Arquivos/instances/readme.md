@@ -1,17 +1,33 @@
 <h1 align=center>Instance.tf</h1>
 
-### Estrutura do código - primeiro bloco
+### O que faz o código no Instance.tf
 <p>
-    O primeiro bloco de código procura a imagem mais recente do Debian 12 que usa virtualização HVM e é de propriedade do proprietário específico. Depois de encontrar essa AMI, você pode referenciá-la na configuração da instância EC2 para que sua instância seja criada com essa imagem. Isso é útil para garantir que você esteja sempre utilizando a versão mais recente da imagem do sistema operacional, com as últimas atualizações e melhorias de segurança.
+  Esse código no arquivo instance.tf é responsável por provisionar uma instância EC2 na AWS, utilizando uma AMI do Debian 12, configurando sua rede, segurança e instalando o servidor Nginx automaticamente.
 
   [Código original](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/instances/old-instance.tf)
 </p>
 
 #
 
-### Primeira modificação
+### Primeira modificação - Subnet_id
 
 <p>
     No código original o subnet_id estava associado à main_subnet, porém, como criamos duas subnets separadas, precisei associar o subnet_id à subnet pública que havia sido criada anteriormente.
     
 </p>
+
+#
+
+### Segunda modificação - Instalar e iniciar NGINX automaticamente
+
+<p>
+Para fazer com que o nginx seja instalado e iniciado automaticamente após a inicialização do EC2, precisamos adicionar os seguintes comandos dentro do <b>user_data</b>
+    
+apt-get install nginx -y
+
+systemctl start nginx
+
+systemctl enable nginx           
+    
+</p>
+
