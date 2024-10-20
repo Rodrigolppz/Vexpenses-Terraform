@@ -1,6 +1,6 @@
 ### <h1 align=center> AWS Network </h1>
 
-Essa é uma parte bastante importante de entender, por isso farei questão de explicar detalhadamente cada decisão tomada no código.
+<b>Essa é uma parte bastante importante de entender, por isso farei questão de explicar detalhadamente antes de prosseguir para o código</b>
 
 ### Antes de começarmos...
 
