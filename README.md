@@ -51,7 +51,7 @@ Revisar as configurações separadas e fazer ajustes baseados no que o projeto p
 
 Comecei substituindo os critérios das variáveis.
 
-[Explicação detalhada das variáveis](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Vari%C3%A1veis)
+[Explicação das variáveis](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Variables)
 
 #
 
