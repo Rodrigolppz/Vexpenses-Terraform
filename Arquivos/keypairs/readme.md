@@ -23,4 +23,8 @@ Esse bloco é responsável por implementar a funcionalidade de salvar a chave pr
 
 Essa chave vai ser utilizada posteriormente para acessar a instância via SSH.
 
+[Código Final](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/keypair.tf)
+
+[Chave privada](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/my-key.pem)
+
 
