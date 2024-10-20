@@ -122,6 +122,22 @@ Com isso concluimos a etapa de configuração do arquivo main.tf, seguindo todo 
 
 #
 
+### 8º passo - Outputs
+
+Tendo em vista que a AMI foi alterada no <code>Instance.tf</code>, precisamos alterar sua referenciação nos Outputs.
+
+[Explicação outputs](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
+
+#
+
+### 9º passo - Provider
+
+O provider já veio configurado corretamente no arquivo original, portanto não precisamos realizar nenhuma alteração no conteúdo.
+
+[Explicação Provider](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)
+
+#
+
 <h1 align=center>Inicializar o EC2</h1>
 
 ### Tutorial
