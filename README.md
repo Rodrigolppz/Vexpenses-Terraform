@@ -41,13 +41,15 @@
   <b>Esta é a pasta dedicada à explicação de cada arquivo <code>.tf</code> e seus detalhes importantes.</b>
 
   [Arquivos - Explicação de cada arquivo.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos)
+
+  <b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="20" height="20" />Agora, para acompanhar o projeto na ordem em que foi feito, basta rolar para baixo neste README e seguir o passo a passo. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Backhand Index Pointing Left" width="20" height="20" /> </b>
   
 </p>
   
 #
 
 
-<h1 align=center >Organizar e modificar o arquivo main.tf</h1>
+<h1 align=center >Início - Organizar e modificar o arquivo <code>main.tf</code></h1>
 
 
 ### 1º passo
@@ -117,9 +119,6 @@ Adicionar uma resource "local_file" para criar uma pasta com a chave privada que
 
 [Explicação keypairs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/keypairs)
 
-
-Com isso concluimos a etapa de configuração do arquivo main.tf, seguindo todo esse passo a passo o projeto estará pronto para ser inicializado na nuvem.
-
 #
 
 ### 8º passo - Outputs
@@ -138,17 +137,21 @@ O provider já veio configurado corretamente no arquivo original, portanto não 
 
 #
 
+### Com isso concluimos a etapa de configuração do arquivo <code>main.tf</code>, seguindo todo esse passo a passo o projeto estará pronto para ser inicializado na nuvem.
+
+#
+
 <h1 align=center>Inicializar o EC2</h1>
 
 ### Tutorial
 
-Após fazer toda a configuração, basta se dirigir até o terminal (no meu caso é o Ubuntu), digitar aws config e colar as respectivas chaves, para isso precisa criar as chaves de acesso no console da AWS e instalar o aws-cli. (Vou dispensar detalhes nessa explicação)
+Após fazer toda a configuração, basta se dirigir até o terminal (no meu caso é o Ubuntu), digitar aws config e colar as respectivas chaves, para isso precisa criar as chaves de acesso no console da AWS e instalar o aws-cli. (Vou dispensar detalhes nessa parte)
 
 Feito isso, basta digitar os seguintes comandos no terminal:
 
-Terraform init
+<code>Terraform init</code>
 
-Terraform apply
+<code>Terraform apply</code>
 
 Estando tudo configurado corretamente, toda a infraestrutura será criada no console da AWS.
 
