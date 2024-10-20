@@ -1,17 +1,18 @@
 <h1 align=center>Outputs.tf</h1>
 
-### Explicação Código
+### Qual o conceito de Outputs ? 
 
-private_key:
+Os outputs em Terraform são um recurso fundamental que permite exibir informações após a aplicação de uma configuração. Eles são usados para fornecer dados sobre os recursos criados ou modificados em uma infraestrutura gerenciada pelo Terraform. 
 
-description: Informa que o valor é a chave privada usada para acessar a instância EC2.
+Outputs são declarações que definem informações que você deseja tornar disponíveis após a execução do Terraform. Elas permitem que você extraia e exiba dados relevantes sobre os recursos criados, como IDs, endereços IP, ou outras propriedades importantes.
 
-value: Mostra o valor da chave privada gerada pelo recurso tls_private_key.
+#
 
-sensitive: Definido como true para garantir que a chave privada não seja exibida em logs ou saídas não seguras.
+### Modificações feitas no código
 
-ec2_public_ip:
+No código antigo, o valor do output <b>ec2_public_ip</b> referenciava a instância <b>aws_instance.debian_ec2</b> para obter o endereço IP público.
 
-description: Informa que o valor é o endereço IP público da instância EC2.
+No código novo, essa referência foi alterada para <b>aws_instance.amazon_linux</b>, que foi a alteração realizada no Instance.tf para gerar a AMI Amazon Linux 2.
 
-value: Referencia o endereço IP público da instância aws_instance.debian_ec2.
+[Código Final](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/outputs.tf)
+
