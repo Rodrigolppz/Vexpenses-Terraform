@@ -23,7 +23,7 @@
 
 #
 
-<h1 align=center>Ordem de visualização do projeto</h1>
+<h1 align=center> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Warning.png" alt="Warning" width="35" height="35" /> AVISOS PRÉVIOS <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Warning.png" alt="Warning" width="35" height="35" /> </h1> 
 
  ### Antes de começarmos...
 
