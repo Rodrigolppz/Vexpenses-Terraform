@@ -28,11 +28,20 @@
  ### Antes de começarmos...
 
 <p>
-  <b>Deixarei listado abaixo as pastas do projeto e suas respectivas funções, para que possa acompanhar o trabalho de forma fluída.</b>
+  <b>Deixarei listado abaixo as pastas do projeto e suas respectivas funções, para que você possa acompanhar o trabalho de forma fluída.</b>
   
-  Essa é a versão final do projeto com tudo funcionando como deveria, commit direto do vscode.
+  <b> Essa é a versão final dos códigos com tudo funcionando como deveria, commit direto do vscode. </b>
   
-  [Projeto pronto](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/terraform%20project)
+  [Terraform project](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/terraform%20project)
+
+  <b>Esse é o resultado final no console da AWS após todas as configurações feitas.</b>
+
+  [Resultado final - console da AWS](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Resultado-Final)
+
+  <b>Essa é a pasta dedicada a explicação de cada arquivo.tf e seus detalhes importantes</b>
+
+  [Arquivos - Explicação de cada arquivo.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos)
+  
   
   
 </p>
@@ -71,7 +80,8 @@ Isso facilita a leitura, o entendimento, a organização e o workflow.
 
 #
 
-### 3º passo
+### 3º passo - Variáveis
+
 Revisar as configurações separadas e fazer ajustes baseados no que o projeto pede. 
 
 Comecei substituindo os critérios das variáveis.
@@ -80,14 +90,15 @@ Comecei substituindo os critérios das variáveis.
 
 #
 
-### 4º passo
+### 4º passo - Network 
+
 Fazer a configuração da network, essa é a parte que eu considero mais importante, pois é aqui que vai ser feito todo o set up da rede e ajustes de segurança. 
 
 [Explicação detalhada passo a passo sobre as configurações da network](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)
 
 #
 
-### 5º passo
+### 5º passo - Security groups
 
 Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao security_groups.
 
@@ -95,22 +106,20 @@ Aumentar a segurança da nossa infraestrutura mexendo nos códigos referentes ao
 
 #
 
-### 6º passo
+### 6º passo - Instância EC2
+
 Analisar o código referente à instância, realizar as alterações necessárias e criar o script que instala e inicia o nginx automaticamente ao iniciar o EC2.
 
 [Explicação Instance](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)
 
 #
 
-### Extra
+### 7º passo - Keypairs
 
-Os códigos referentes às keypairs, outputs e providers já vieram configurados corretamente, portanto não há necessidade de nenhuma alteração, para mais detalhes acerca desses segue abaixo:
+Adicionar uma resource "local_file" para criar uma pasta com a chave privada que precisaremos para conectar via SSH.
 
-[keypairs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/keypairs)
+[Explicação keypairs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/keypairs)
 
-[outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
-
-[Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)
 
 Com isso concluimos a etapa de configuração do arquivo main.tf, seguindo todo esse passo a passo o projeto estará pronto para ser inicializado na nuvem.
 
