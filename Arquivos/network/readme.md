@@ -56,6 +56,8 @@ Preciso fazer uma breve explicação sobre como funciona a network na AWS, para 
 
 [Explicação detalhada de todas as modificações no código](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/explica%C3%A7%C3%B5es-c%C3%B3digo.md)
 
+[Referencia que usei para esse tópico](https://youtu.be/2doSoMN2xvI?t=1)
+
 #
 
 
