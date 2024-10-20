@@ -1,3 +1,3 @@
 <h1 align=center>Console AWS</h1>
 
-### Acima estão as imagens do console da AWS com os resultados de cada configuração.
+### Acima estão as imagens do console da AWS com os resultados de cada configuração. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Up.png" alt="Backhand Index Pointing Up" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Up.png" alt="Backhand Index Pointing Up" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Up.png" alt="Backhand Index Pointing Up" width="25" height="25" />
