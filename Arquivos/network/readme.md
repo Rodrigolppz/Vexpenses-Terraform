@@ -6,8 +6,10 @@ Essa é uma parte bastante importante de entender, por isso farei questão de ex
 
 Preciso fazer uma breve explicação sobre como funciona a network na AWS, para isso vamos tomar como base esse diagrama:
 
-[Network.png](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/Network.png)
+<img src="https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/Arquivos/network/Network.png">
+
 #
+
 ### Como funciona o diagrama ? 
 
 <p>
@@ -44,7 +46,7 @@ Preciso fazer uma breve explicação sobre como funciona a network na AWS, para 
 
 ### Network Acess Control List e Security Group
 <p>
-  Resumidamente, Network Access Control List (NACL) é como um firewall virtual que atua no nível da subnet. Ele controla o tráfego que entra e sai das subnets e oferece uma camada adicional de segurança em torno delas.
+  Network Access Control List (NACL) é como um firewall virtual que atua no nível da subnet. Ele controla o tráfego que entra e sai das subnets e oferece uma camada adicional de segurança em torno delas.
 
   Security Group: É como um firewall virtual que protege instâncias individuais, como a EC2. Ele controla o tráfego de entrada e saída diretamente da instância.
   
