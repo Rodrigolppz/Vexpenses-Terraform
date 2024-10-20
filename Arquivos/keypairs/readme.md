@@ -1,6 +1,26 @@
 <h1 align=center>Keypairs.tf</h1>
 
-### Explicação do bloco de código
+### Qual o conceito das keypairs ? 
 
-tls_private_key: Cria uma chave privada usando o algoritmo RSA com 2048 bits.
-aws_key_pair: Usa a chave pública gerada pela chave privada para criar um par de chaves na AWS, associando a chave pública à instância EC2.
+Key pairs são um componente essencial da segurança na AWS e em outras plataformas de computação em nuvem. Elas são usadas principalmente para autenticação e criptografia ao acessar instâncias EC2 e outros serviços.
+
+Um key pair consiste em duas chaves criptográficas:
+
+Chave pública: Esta chave pode ser compartilhada e é instalada na instância que você deseja acessar.
+
+Chave privada: Esta chave deve ser mantida em segredo e é usada para autenticar o usuário que tenta acessar a instância.
+
+### Modificação feita no código
+
+Adicionei o bloco 
+
+<code>resource "local_file" "private_key" {
+  content  = tls_private_key.ec2_key.private_key_pem
+  filename = "${path.module}/my-key.pem" # Salva a chave privada localmente
+}</code>
+
+Esse bloco é responsável por implementar a funcionalidade de salvar a chave privada gerada para a instância EC2 em um arquivo local no sistema.
+
+Essa chave vai ser utilizada posteriormente para acessar a instância via SSH.
+
+
