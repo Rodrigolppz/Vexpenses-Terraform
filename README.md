@@ -42,7 +42,7 @@
 
   [Arquivos - Explicação de cada arquivo.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos)
 
-  <b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="20" height="20" />Agora, para acompanhar o projeto na ordem em que foi feito, basta rolar para baixo neste README e seguir o passo a passo. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Backhand Index Pointing Left" width="20" height="20" /> </b>
+  <b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="18" height="18" /> Agora, para acompanhar o projeto na ordem em que foi feito, basta rolar para baixo neste README e seguir o passo a passo. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Backhand Index Pointing Left" width="18" height="18" /> </b>
   
 </p>
   
@@ -141,7 +141,7 @@ O provider já veio configurado corretamente no arquivo original, portanto não 
 
 #
 
-<h1 align=center>Inicializar o EC2</h1>
+<h1 align=center>Segunda etapa - Inicializar o EC2</h1>
 
 ### Tutorial
 
@@ -157,7 +157,7 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
 
 #
 
-<H1 align=center>Passos finais</H1>
+<H1 align=center>Final - SSH e NGINX</H1>
 
 <b>Agora que já está tudo rodando como deveria, basta realizar os testes para saber se todas as especificações foram atentidas, para isso vamos seguir um passo a passo simples</b>
 
@@ -215,7 +215,7 @@ Agora temos uma infraestrutura completa rodando na AWS.
 
 Foi um projeto muito interessante de fazer, aprendi muita coisa ao longo do percurso, a partir de agora me sinto bastante confiante para aprender ainda mais sobre IaC e o mundo DevOps, obrigado se voce viu até aqui.
 
-Sinta-se a vontade para dar uma olhada nos meus outros repositórios e entrar em contato caso queira! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Winking%20Face.webp" alt="Winking Face" width="25" height="25" />
+Sinta-se à vontade para dar uma olhada nos meus outros repositórios e entrar em contato! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Winking%20Face.webp" alt="Winking Face" width="20" height="20" />
 
 
 
