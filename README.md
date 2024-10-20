@@ -38,16 +38,13 @@
 
   [Resultado final - console da AWS](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Resultado-Final)
 
-  <b>Essa é a pasta dedicada a explicação de cada arquivo.tf e seus detalhes importantes</b>
+  <b>Esta é a pasta dedicada à explicação de cada arquivo <code>.tf</code> e seus detalhes importantes.</b>
 
   [Arquivos - Explicação de cada arquivo.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos)
   
-  
-  
 </p>
- 
   
-
+#
 
 
 <h1 align=center >Organizar e modificar o arquivo main.tf</h1>
