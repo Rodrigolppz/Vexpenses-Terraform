@@ -23,6 +23,24 @@
 
 #
 
+<h1 align=center>Ordem de visualização do projeto</h1>
+
+ ### Antes de começarmos...
+
+<p>
+  <b>Deixarei listado abaixo as pastas do projeto e suas respectivas funções, para que possa acompanhar o trabalho de forma fluída.</b>
+  
+  Essa é a versão final do projeto com tudo funcionando como deveria, commit direto do vscode.
+  
+  [Projeto pronto](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/terraform%20project)
+  
+  
+</p>
+ 
+  
+
+
+
 <h1 align=center >Organizar e modificar o arquivo main.tf</h1>
 
 
@@ -34,13 +52,20 @@ Analisar o arquivo [Main.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/
 ### 2º passo
 Quebrar o arquivo Main.tf em vários arquivos diferentes, um para cada função, exemplo: 
 
-├── [Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Provider)              
-├── [variables.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/Variables)             
-├── [network.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/network)               
-├── [security_groups.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/security-groups)       
-├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/instances)   
-├── [outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/tree/main/Arquivos/outputs)
 
+├── [Provider.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/provider.tf)
+
+├── [variables.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/variables.tf)
+
+├── [network.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/network.tf)
+
+├── [security_groups.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/security_groups.tf)
+
+├── [instances.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/instances.tf)
+
+├── [keypairs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/keypair.tf)
+
+├── [outputs.tf](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/outputs.tf)
 
 Isso facilita a leitura, o entendimento, a organização e o workflow.
 
