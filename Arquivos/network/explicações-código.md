@@ -31,6 +31,8 @@ Criar um Elastic IP associado ao NAT Gateway. Esse Elastic IP garantirá que o N
 
 Com essas 3 modificações o nosso código já está Agradável para darmos continuidade nos outros arquivos do projeto!
 
+[Código final](https://github.com/Rodrigolppz/Vexpenses-Terraform/blob/main/terraform%20project/network.tf)
+
 
 
  
