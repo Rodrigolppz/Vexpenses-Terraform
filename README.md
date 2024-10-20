@@ -115,7 +115,7 @@ Estando tudo configurado corretamente, toda a infraestrutura será criada no con
 <p>
   Aqui nós precisamos conectar na nossa instância EC2 por SSH para garantir de que as configurações do security_group estão funcionando corretamente, para isso basta:
 
-  ir até o local aonde está localizado o arquivo .pem, que é o arquivo que contém a nossa chave privada de acesso, no meu caso é -> cd /root/terraform\ projet/
+  ir até o local aonde está localizado o arquivo .pem, que é o arquivo que contém a nossa chave privada de acesso, no meu caso é -> cd /root/terraform\ project/
 
   Após isso é necessário pegar o Public IP da sua instância EC2 no console da AWS e conectar utilizando o comando -> ssh -i my-key.pem ec2-user@My.Public.Ip
 
