@@ -196,7 +196,7 @@ Agora temos uma infraestrutura completa rodando na AWS.
 
 Foi um projeto muito interessante de fazer, aprendi muita coisa ao longo do percurso, a partir de agora me sinto bastante confiante para aprender ainda mais sobre IaC e o mundo DevOps, obrigado se voce viu até aqui.
 
-Sinta-se a vontade para dar uma olhada nos meus outros repositórios e entrar em contato caso queira! =)
+Sinta-se a vontade para dar uma olhada nos meus outros repositórios e entrar em contato caso queira! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Winking%20Face.webp" alt="Winking Face" width="25" height="25" />
 
 
 
