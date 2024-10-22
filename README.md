@@ -28,7 +28,7 @@
  ### Antes de começarmos...
 
 <p>
-  <b>Deixarei listado abaixo as pastas do projeto e suas respectivas funções, para que você possa acompanhar o trabalho de forma fluída.</b>
+  <b>Deixarei listado abaixo as pastas do projeto e suas respectivas funções, para que você possa acompanhar o trabalho de forma fluida.</b>
   
   <b> Essa é a versão final dos códigos com tudo funcionando como deveria, commit direto do vscode. </b>
   
